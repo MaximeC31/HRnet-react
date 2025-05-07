@@ -1,0 +1,56 @@
+.confirm-modal {
+  position: fixed;
+  inset: 0;
+}
+
+.confirm-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.confirm-modal__content {
+  background-color: var(--color-background);
+  padding: var(--spacing-9);
+  border-radius: var(--border-radius-lg);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.confirm-modal__message {
+  margin: 0 0 var(--spacing-6);
+  text-align: center;
+}
+
+.confirm-modal__button {
+  display: block;
+  margin: 0 auto;
+}
+
+.confirm-modal__button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+@media (max-width: 768px) {
+  .confirm-modal__content {
+    padding: var(--spacing-4);
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .confirm-modal__content {
+    padding: var(--spacing-3);
+    max-width: 260px;
+  }
+
+  .confirm-modal__message {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+  }
+}

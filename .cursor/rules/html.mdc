@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Rédiger un contenu textuel clair, pertinent et de haute qualité.
+- Utiliser des balises HTML5 sémantiques pour une structure logique et significative.
+- Intégrer des microdonnées Schema.org (JSON-LD) pour enrichir la sémantique et le SEO.
+- Organiser le contenu avec une hiérarchie de titres (Hn) claire et un seul H1 par page.
+- Optimiser les balises <title> et <meta description> pour chaque page.
+- Intégrer les polices web et librairies d'icônes de manière performante.
+- Nommer toutes les balises selon la méthode BEM pour la maintenabilité.
+- Construire l'accessibilité (ARIA, sémantique) directement dans le balisage HTML.
+- Assurer la responsivité de la conception, idéalement avec une approche mobile-first.
+- Bannir l'utilisation de styles CSS inline.
+- Valider le code HTML selon les standards du W3C.
+- Modulariser le HTML en utilisant des templates ou des composants. <section>
+- Viser d'excellents scores pour les Core Web Vitals (LCP, INP, CLS, etc.).
+- Maintenir la cohérence et la pertinence de tous les fichiers HTML de l'application.
+- Optimiser les images pour améliorer les performances (formats, lazy loading).
+- Minifier le code HTML pour réduire la taille des fichiers.
+- Retirer les commentaires du code HTML final en production.
