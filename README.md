@@ -1,1 +1,1 @@
-HRnet est une application web de gestion des employés développée avec React et Vite, permettant de visualiser et gérer les données des employés de manière efficace. Le but a été d'export le projet de jquery vers react.
+HRnet est une application web de gestion des employés développée avec React et Vite, permettant de visualiser et gérer les données des employés de manière efficace. Le but a été d'export le projet de jquery vers react, ainsi que de créer un package NPM avec rollup.
